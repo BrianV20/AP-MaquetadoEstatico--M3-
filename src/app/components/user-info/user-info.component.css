@@ -1,0 +1,40 @@
+/*/ USER /*/
+
+.containerUser {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+#bannerImg {
+    margin-top: 7rem;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3rem;
+}
+
+#user-pic-about {
+    padding-top: 1rem;
+}
+
+#userImg {
+    width: 100%;
+    margin: 2rem 0 0 6rem;
+    display: inline-block;
+    place-items: center;
+}
+
+#about-me {
+    background-color: #52B69A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 1rem;
+    width: 30%;
+}
+
+#about {
+    background-color: #dad7cd;
+    color: black;
+    border-radius: 1rem;
+    width: 58.3%;
+}
