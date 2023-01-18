@@ -9,7 +9,8 @@
 }
 
 .exp {
-    font-family: Verdana;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
     border: solid 1px black;
     background-color: #88D4AB;
     padding: 1rem 2rem;
