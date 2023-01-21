@@ -1,9 +1,10 @@
 /*/ USER /*/
 
 .containerUser {
-    display: grid;
+   /*  display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr; */
+    display: flex;
 }
 
 #bannerImg {
@@ -12,6 +13,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 3rem;
+    border: 1px solid black;
 }
 
 #user-pic-about {
@@ -20,23 +22,30 @@
 
 #userImg {
     width: 100%;
-    margin: 2rem 0 0 6rem;
+    margin-left: 6rem;
     display: inline-block;
     place-items: center;
+    border: 3px solid black;
 }
 
 #about-me {
-    background-color: #52B69A;
+    background-color: #44626D;
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     border-radius: 1rem;
     width: 30%;
+    color: #edf2f4;
     border: solid 1px black;
 }
 
 #about {
-    background-color: #dad7cd;
-    color: black;
+    background-color: #C2D3D9;
     border-radius: 1rem;
     width: 58.3%;
+    border: solid 10px black;
+}
+
+.lead {
+    font-weight: 400;
+    line-height: 2rem;
 }
