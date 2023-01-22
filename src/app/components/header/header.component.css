@@ -1,3 +1,14 @@
+#title {
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#login {
+    margin: 1rem 0.3rem 0 0.8rem;
+}
+
+
 
 
 /*/#user-pic {

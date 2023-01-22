@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class UserInfoComponent {
   bannerImgSrc = 'assets/BannerLaura.jpg';
   userImgSrc = 'assets/UserImgAB.jpg';
+  
+  /* function changeP(input) {
+    document.getElementById('aboutMeText').innerHTML
+  } */
 }

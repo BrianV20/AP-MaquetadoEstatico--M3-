@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { LoggedViewComponent } from './components/logged-view/logged-view.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path: 'LoggedView', component: LoggedViewComponent},
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

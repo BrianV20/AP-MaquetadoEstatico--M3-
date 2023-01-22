@@ -22,7 +22,7 @@
 
 #userImg {
     width: 100%;
-    margin-left: 6rem;
+    margin-left: 6.1rem;
     display: inline-block;
     place-items: center;
     border: 3px solid black;
@@ -42,7 +42,7 @@
     background-color: #C2D3D9;
     border-radius: 1rem;
     width: 58.3%;
-    border: solid 10px black;
+    border: solid 1px black;
 }
 
 .lead {
