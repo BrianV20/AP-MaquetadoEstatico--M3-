@@ -16,33 +16,69 @@
         </ul>
     </div>
 </nav>
-<div class="container">
-    <div class="containerUser">
-        <img class="img-fluid" id="bannerImg" [src]="bannerImgSrc" alt="" />
-    </div>
 
-    <div class="row text-center mt-3" id="user-pic-about">
-        <div class="col-md-3">
-            <img [src]="userImgSrc" class="rounded-circle" id="userImg" alt="" />
+
+
+
+
+<div class="container">
+    <div>
+        <div class="containerUser">
+            <img class="img-fluid" id="bannerImg" [src]="bannerImgSrc" alt="" />
+            <i class="fa-solid fa-circle fa-3x bannerEditIcon"></i>
+            <i class="fa-solid fa-pen fa-xl bannerEditIcon"></i>
         </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-8 about" id="about">
-            <p class="h3 mt-2 py-2 px-1" id="about-me">Acerca de mi</p>
-            <p class="lead mt-3 mb-2 text-start" id="aboutMeText">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ea
-                iure perspiciatis minima nesciunt cupiditate doloremque, totam
-                eveniet. Quas ab similique at magnam ducimus temporibus? Ullam aperiam
-                deleniti aut cum id consequuntur exercitationem repudiandae quisquam.
-            </p>
+
+        <div class="row text-center mt-3" id="user-pic-about">
+            <div class="col-md-3">
+                <img [src]="userImgSrc" class="img-fluid rounded-circle" id="userImg" alt="" />
+                <h2 class="userName">Brian Ezequiel Velazquez</h2>
+                <i class="fa-solid fa-pen fa-xl userNameEditIcon"></i>
+            </div>
+            <div class="col-md-1">
+                <i class="fa-solid fa-circle fa-3x userImgEditIcon"></i>
+                <i class="fa-solid fa-pen fa-xl userImgEditIcon"></i>
+
+                <i class="fa-solid fa-circle fa-3x userNameEditIcon"></i>
+                <!-- <i class="fa-solid fa-pen fa-xl userNameEditIcon"></i> -->
+            </div>
+            <div class="col-md-7 about" id="about">
+                <p class="h3 mt-2 py-2 px-1" id="about-me">Acerca de mi</p>
+                <p class="lead mt-3 mb-2 text-start" id="aboutMeText">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ea
+                    iure perspiciatis minima nesciunt cupiditate doloremque, totam
+                    eveniet. Quas ab similique at magnam ducimus temporibus? Ullam aperiam
+                    deleniti aut cum id consequuntur exercitationem repudiandae quisquam.
+                </p>
+            </div>
+            <div class="col-md-1">
+                <i class="fa-solid fa-circle fa-3x userAboutEditIcon"></i>
+                <i class="fa-solid fa-pen fa-xl userAboutEditIcon"></i>
+                <!-- <i class="fa-solid fa-xmark fa-3x userAboutEditIcon"></i>
+                <i class="fa-solid fa-circle fa-3x userAboutEditIcon" id="userAboutDeleteCircleIcon"></i> -->
+            </div>
         </div>
+        <!-- <div class="row text-center mt-3" id="user-pic-about">
+            <div class="col-md-3"></div>
+            <div class="col-md-1">
+                <i class="fa-solid fa-circle fa-3x userNameEditIcon"></i>
+                <i class="fa-solid fa-pen fa-xl userNameEditIcon"></i>
+            </div>
+            <div class="col-md-8"></div>
+        </div> -->
     </div>
 </div>
+
+
+
+
+
 
 <!-- EXPERIENCE -->
 <div class="experienceDiv">
     <h2 class="exp">Experiencia</h2>
     <div class="container-exp px-5 py-3">
-        <div class="item">
+        <div>
             <img [src]="experience_1" alt="youtube logo" class="experience-education-logo" id="youtubeLogo">
         </div>
         <div class="item">
@@ -68,8 +104,15 @@
                 repudiandae quisquam.
             </p>
         </div>
+        <div>
+            <i class="fa-solid fa-circle fa-3x "></i>
+            <i class="fa-solid fa-pen fa-xl expEditPen"></i>
+            <i class="fa-solid fa-xmark fa-3x"></i>
+            <i class="fa-solid fa-circle fa-3x"></i>
+        </div>
 
-        <div class="item">
+
+        <div>
             <img [src]="experience_2" alt="letterboxd logo" class="experience-education-logo">
         </div>
         <div class="item">
@@ -83,8 +126,15 @@
                 repudiandae quisquam.
             </p>
         </div>
+        <div>
+            <i class="fa-solid fa-circle fa-3x "></i>
+            <i class="fa-solid fa-pen fa-xl expEditPen"></i>
+            <i class="fa-solid fa-xmark fa-3x"></i>
+            <i class="fa-solid fa-circle fa-3x"></i>
+        </div>
 
-        <div class="item-7">
+
+        <div>
             <img [src]="experience_3" alt="netflix logo" class="experience-education-logo">
         </div>
         <div class="item">
@@ -97,6 +147,12 @@
                 exercitationem
                 repudiandae quisquam.
             </p>
+        </div>
+        <div>
+            <i class="fa-solid fa-circle fa-3x "></i>
+            <i class="fa-solid fa-pen fa-xl expEditPen"></i>
+            <i class="fa-solid fa-xmark fa-3x"></i>
+            <i class="fa-solid fa-circle fa-3x"></i>
         </div>
     </div>
 </div>
@@ -150,9 +206,12 @@
     </div>
 </div>
 
-<head>
 
-</head>
+
+
+
+
+
 
 <div class="skills">
     <h2 id="skillsTitle">Hard & Soft Skills</h2>
@@ -234,6 +293,11 @@
 </div>
 
 
+
+
+
+
+
 <div class="divProjectsParent">
     <h2 class="divProjectsTitle">
         Projects
@@ -277,6 +341,11 @@
         </div>
     </div>
 </div>
+
+
+
+
+
 
 <!-- FOOTER -->
 <footer class="p-4 bg-dark text-white text-center position-relative">
