@@ -1,11 +1,28 @@
+.container {
+    display: flex;
+}
+
 #title {
     font-size: 1.7rem;
     margin-top: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 #login {
-    margin: 1rem 0.3rem 0 0.8rem;
+    margin-top: 1rem;
+}
+
+.git {
+    padding-top: 0.7em;
+}
+
+.icon {
+    transition: transform 1s;
+}
+
+.icon:hover {
+    transform: translateY(-10px);
 }
 
 

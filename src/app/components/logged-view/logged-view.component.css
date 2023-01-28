@@ -163,6 +163,7 @@
   display: grid;
   grid-template-columns: 15rem 1fr 2rem;
   grid-template-rows: repeat(3, 12rem);
+  /* grid-auto-flow: column; */
   gap: 2.7rem 2rem;
 }
 
@@ -205,7 +206,7 @@
   background-color: #C4C1D9;
 
   display: grid;
-  grid-template-columns: 15rem 1fr;
+  grid-template-columns: 15rem 1fr 2rem;
   grid-template-rows: 12rem 12rem;
   gap: 2.7rem 2rem;
 }
@@ -237,6 +238,13 @@
   border-radius: 5px;
   margin-bottom: 2rem;
 }
+
+/* .skillsEditIcon, .projectsEditIcon {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* padding-left: em; */
+  /* margin-left: 10em; */
+/*} */
 
 .skillsDiv {
   display: flex;

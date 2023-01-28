@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./user-info.component.css']
 })
 export class UserInfoComponent {
-  bannerImgSrc = 'assets/BannerLaura.jpg';
+  bannerImgSrc = 'assets/forest.jpg';
   userImgSrc = 'assets/UserImgAB.jpg';
   
   /* function changeP(input) {
