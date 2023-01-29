@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 
 export class HeaderComponent {
-  constructor() {
+  /* constructor() {
 
     var login: HTMLElement | null = document.getElementById('login');
 
@@ -22,5 +22,5 @@ export class HeaderComponent {
     if (login != null) {
       login.onclick = Login();
     }
-  }
+  } */
 }

@@ -23,10 +23,17 @@
 }
 
 .divProjects {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 20px 20px;
+  gap: 20px 20px; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 30%;
+  border-radius: 3em;
 }
 
 .atm {
@@ -36,7 +43,8 @@
 
 .atm,
 .batallaNaval,
-.dbDePersonas {
+.dbDePersonas,
+.paginaBoostrap {
   background-color: #C6EB86;
   padding: 0 1rem;
   margin: 1rem 2rem;

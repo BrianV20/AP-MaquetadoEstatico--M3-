@@ -13,16 +13,24 @@
     margin-top: 1rem;
 }
 
+.fa-facebook {
+    padding-top: 0.7em;
+}
+
+.fa-instagram {
+    padding-top: 0.3em;
+}
+
 .git {
     padding-top: 0.7em;
 }
 
-.icon {
-    transition: transform 1s;
+.icon, .bi {
+    transition: transform 0.3s;
 }
 
 .icon:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
 }
 
 
